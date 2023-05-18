@@ -10,7 +10,7 @@ def download_data(url):
     print("\n successfully downloaded...")
 
 #---function used to convert data into excel format
-def convet_to_excel(file):
+def convert_to_excel(file):
      #first convert the json data in dataframe using json_normalize() function
      f = open(file)
      dict = json.load(f)     
@@ -27,5 +27,5 @@ if __name__ == "__main__":
     #---calling function to download the data file
     download_data("https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json")
     #---calling function to convert the data file into excel format
-    convet_to_excel("pokemon.json")
+    convert_to_excel("pokemon.json")
     
