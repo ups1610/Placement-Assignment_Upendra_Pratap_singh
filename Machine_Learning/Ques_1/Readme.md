@@ -35,10 +35,12 @@ The code is present in
 
 `
 notebook/EDA.ipynb
+
 notebook/Model_training.ipynb
 `
 
 The Build model is present in 
 `artifacts/likes_model.pkl
+
 artifacts/time_since_posted.pkl
 `
